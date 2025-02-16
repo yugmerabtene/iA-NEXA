@@ -1,5 +1,7 @@
 # **Syllabus Complet sur l'Intelligence Artificielle (IA)**
 
+---
+
 ## **Module 1 : Introduction à l'Intelligence Artificielle**
 
 ### Objectifs :
@@ -9,12 +11,22 @@
 ### Chapitres :
 1. **Définitions et histoire de l'IA**
    - Intelligence artificielle (IA) générale (AGI) vs Intelligence artificielle restreinte (ANI).
-   - Histoire et évolution de l'IA.
+   - Histoire et évolution de l'IA : des premiers algorithmes aux systèmes modernes.
+   - Exemples historiques : ELIZA, Deep Blue, AlphaGo.
+   - **TP :** Recherche et présentation d'un événement marquant dans l'histoire de l'IA.
+
 2. **Systèmes d'apprentissage**
    - Apprentissage supervisé, non supervisé, par renforcement.
    - Apprentissage semi-supervisé, par transfert, en ligne, multitâche, incrémental.
+   - **TP :** Comparaison des différents types d'apprentissage à l'aide d'exemples concrets (ex : classification d'images vs clustering).
+
 3. **Applications modernes de l'IA**
-   - Domaine médical, finance, marketing, robotique, jeux vidéo.
+   - Domaine médical : diagnostic assisté par IA.
+   - Finance : détection de fraudes, trading algorithmique.
+   - Marketing : personnalisation des recommandations.
+   - Robotique : robots autonomes.
+   - Jeux vidéo : NPCs intelligents.
+   - **TP :** Étude de cas sur une application moderne de l'IA (ex : ChatGPT, Tesla Autopilot).
 
 ---
 
@@ -28,15 +40,22 @@
 1. **Apprentissage supervisé**
    - Régression linéaire, régression logistique.
    - Classification : arbres de décision, forêts aléatoires, SVM, k-NN.
+   - **TP :** Implémentation d'un modèle de régression linéaire avec Python (Scikit-Learn).
+
 2. **Apprentissage non supervisé**
    - Clustering : K-Means, DBSCAN.
    - Réduction de dimensionnalité : PCA, t-SNE.
+   - **TP :** Application de K-Means pour segmenter des données (ex : clustering de clients).
+
 3. **Optimisation et algorithmes**
    - Descente de gradient, SGD, Adam, RMSprop.
    - Recherche par colonies de fourmis, algorithmes génétiques, Simulated Annealing.
+   - **TP :** Optimisation d'une fonction simple avec la descente de gradient.
+
 4. **Régularisation**
    - Ridge Regression (L2), Lasso Regression (L1).
    - Techniques de prévention du sur-apprentissage.
+   - **TP :** Comparaison des effets de la régularisation L1 et L2 sur un modèle de régression.
 
 ---
 
@@ -50,13 +69,18 @@
 1. **Réseaux de neurones artificiels (ANN)**
    - Fonctions d'activation : ReLU, Sigmoid, Tanh.
    - Backpropagation, Dropout, Batch Normalization, Regularization (L1/L2).
+   - **TP :** Création d'un réseau de neurones simple avec Keras pour la classification de données.
+
 2. **Architectures avancées**
    - CNN pour la vision.
    - RNN, LSTM, GRU pour les séries temporelles.
    - GAN pour la génération de données.
    - Transformers et mécanismes d'attention.
+   - **TP :** Implémentation d'un CNN pour la classification d'images (ex : MNIST).
+
 3. **Autoencodeurs et réseaux de croyance profonde (DBN)**
    - Compression de données et apprentissage non supervisé.
+   - **TP :** Utilisation d'un autoencodeur pour la réduction de dimensionnalité.
 
 ---
 
@@ -70,12 +94,17 @@
 1. **Concepts de base**
    - Tokenization, Word Embeddings (Word2Vec, GloVe, FastText).
    - Part-of-Speech Tagging (POS), Named Entity Recognition (NER).
+   - **TP :** Création d'un modèle de Word2Vec avec Gensim.
+
 2. **Modèles avancés**
    - Sequence-to-Sequence Models (Seq2Seq).
    - BERT, GPT.
+   - **TP :** Utilisation de BERT pour l'analyse de sentiments.
+
 3. **Applications**
    - Analyse de sentiments, traduction automatique.
    - Génération de texte, chatbots.
+   - **TP :** Création d'un chatbot simple avec GPT-2.
 
 ---
 
@@ -89,10 +118,15 @@
 1. **Concepts de base**
    - Classification d'images, détection de contours.
    - Object Detection (YOLO, SSD).
+   - **TP :** Utilisation d'OpenCV pour la détection de contours.
+
 2. **Techniques avancées**
    - Segmentation d'images, OCR, Pose Estimation.
+   - **TP :** Application de YOLO pour la détection d'objets.
+
 3. **Outils populaires**
    - OpenCV, YOLO, DALL-E, Stable Diffusion.
+   - **TP :** Génération d'images avec Stable Diffusion.
 
 ---
 
@@ -106,8 +140,11 @@
 1. **Concepts de base**
    - Q-Learning, Policy Gradient, Actor-Critic Methods.
    - Problème des bandits manchots.
+   - **TP :** Implémentation d'un algorithme de Q-Learning pour un jeu simple.
+
 2. **Applications**
    - Jeux vidéo, robots autonomes, optimisation des décisions.
+   - **TP :** Entraînement d'un agent pour jouer à un jeu vidéo simple.
 
 ---
 
@@ -121,9 +158,12 @@
 1. **Optimisation**
    - Hyperparameter Tuning, Neural Architecture Search (NAS).
    - Quantization, Pruning, Knowledge Distillation.
+   - **TP :** Utilisation de Grid Search pour l'optimisation des hyperparamètres.
+
 2. **Généralisation**
    - Overfitting, Underfitting, Cross-Validation.
    - Biais-variance, Early Stopping.
+   - **TP :** Application de la validation croisée pour évaluer un modèle.
 
 ---
 
@@ -137,11 +177,16 @@
 1. **Feature Engineering**
    - Sélection et extraction de caractéristiques.
    - Normalisation, standardisation.
+   - **TP :** Préparation d'un jeu de données pour un modèle de ML.
+
 2. **Réduction de dimensionnalité**
    - PCA, t-SNE.
+   - **TP :** Application de PCA pour visualiser des données multidimensionnelles.
+
 3. **Traitement des données**
    - Imputation de données manquantes, augmentation de données.
    - Balancement des données (Over-/Under-sampling).
+   - **TP :** Utilisation de SMOTE pour équilibrer un jeu de données.
 
 ---
 
@@ -154,9 +199,12 @@
 ### Chapitres :
 1. **Déploiement**
    - Model Serving, APIs, conteneurs (Docker).
+   - **TP :** Déploiement d'un modèle avec Flask et Docker.
+
 2. **Maintenance**
    - Model Drift, Model Monitoring.
    - Explainability (XAI), détection des biais.
+   - **TP :** Surveillance d'un modèle en production avec Prometheus.
 
 ---
 
@@ -170,9 +218,12 @@
 1. **Éthique**
    - Biais algorithmique, fairness in AI.
    - Confidentialité des données, apprentissage fédéré.
+   - **TP :** Analyse des biais dans un jeu de données.
+
 2. **Sécurité**
    - Attaques adversariales, robustesse des modèles.
    - Privacy-Preserving Machine Learning.
+   - **TP :** Test de robustesse d'un modèle face à des attaques adversariales.
 
 ---
 
@@ -186,9 +237,12 @@
 1. **Concepts émergents**
    - Few-Shot Learning, Zero-Shot Learning.
    - Self-Supervised Learning, Causal Inference.
+   - **TP :** Expérimentation avec un modèle de Few-Shot Learning.
+
 2. **Architectures avancées**
    - Neural Architecture Search (NAS), Foundation Models.
    - IA neuro-symbolique, modèles causaux.
+   - **TP :** Exploration d'un modèle de type Transformer.
 
 ---
 
@@ -202,9 +256,12 @@
 1. **Applications**
    - Systèmes de recommandation, détection de fraudes.
    - Conduite autonome, surveillance médicale.
+   - **TP :** Création d'un système de recommandation simple.
+
 2. **Outils**
    - TensorFlow, PyTorch, Keras, Scikit-Learn.
    - Hugging Face Transformers, OpenCV.
+   - **TP :** Utilisation de Hugging Face pour entraîner un modèle de NLP.
 
 ---
 
@@ -225,130 +282,7 @@
 
 ---
 
-## **Annexe : Concepts détaillés et techniques avancées**
-
-### Concepts généraux d'IA :
-- Intelligence artificielle (IA) générale (AGI)
-- Intelligence artificielle restreinte (ANI)
-- Systèmes d'apprentissage (Machine Learning)
-- Apprentissage supervisé
-- Apprentissage non supervisé
-- Apprentissage par renforcement
-- Apprentissage semi-supervisé
-- Apprentissage par transfert (Transfer Learning)
-- Apprentissage en ligne (Online Learning)
-- Apprentissages multitâches (Multitask Learning)
-- Apprentissage incrémental
-
-### Techniques et algorithmes d'IA :
-#### Machine Learning :
-- Régression linéaire
-- Régression logistique
-- Arbres de décision (Decision Trees)
-- Forêts aléatoires (Random Forests)
-- Machines à vecteurs de support (SVM)
-- K-plus proches voisins (K-Nearest Neighbors, KNN)
-- Algorithmes de clustering (K-Means, DBSCAN, etc.)
-- Réseaux bayésiens (Bayesian Networks)
-- Naïve Bayes
-
-#### Deep Learning :
-- Réseaux de neurones artificiels (ANN)
-- Réseaux neuronaux convolutifs (CNN)
-- Réseaux neuronaux récurrents (RNN)
-- Long Short-Term Memory (LSTM)
-- Gated Recurrent Units (GRU)
-- Transformers
-- Modèles génératifs adverses (GANs)
-- Réseaux de croyance profonde (DBN)
-- Autoencodeurs
-- Deep Q-Learning
-
-### Sous-domaines spécialisés de l'IA :
-- Traitement automatique du langage naturel (NLP)
-- Vision par ordinateur (Computer Vision)
-- Reconnaissance vocale
-- Synthèse vocale (Text-to-Speech, TTS)
-- Traitement d'images
-- Robotique intelligente
-- Systèmes experts
-- IA pour jeux vidéo (Game AI)
-- Analyse de séries temporelles
-- Raisonnement automatisé
-- IA embarquée (Edge AI)
-
-### Concepts avancés en IA :
-- Métamodèles (Meta Learning)
-- Modèles probabilistes
-- Inférence bayésienne
-- Modèles causaux
-- Optimisation multi-objectifs
-- Réseaux neuronaux graphiques (Graph Neural Networks, GNN)
-- Réseaux antagonistes (Adversarial Learning)
-- Fédérer l’apprentissage (Federated Learning)
-- Modèles fondamentaux (Foundation Models)
-
-### Algorithmes et outils d’optimisation :
-- Descente de gradient (Gradient Descent)
-- Optimisateurs avancés (Adam, RMSprop, SGD, etc.)
-- Recherche par colonies de fourmis
-- Algorithmes génétiques
-- Programmation par contraintes
-- Simulated Annealing
-- Algorithmes de recherche locale
-
-### Éthique et sécurité de l’IA :
-- Biais algorithmique
-- Explicabilité des modèles (Explainable AI, XAI)
-- Robustesse de l’IA
-- IA fiable et responsable
-- Attaques adversariales (Adversarial Attacks)
-- Détection des biais
-- Confidentialité des données
-
-### Applications de l’IA :
-- Analyse des sentiments
-- Traduction automatique (Machine Translation)
-- Systèmes de recommandation
-- Détection des fraudes
-- Réseaux sociaux et personnalisation
-- Automatisation des processus (RPA)
-- Conduite autonome (Self-Driving Cars)
-- Surveillance médicale
-- Optimisation industrielle
-- Fintech (IA en finance)
-
-### Modèles et technologies populaires :
-- GPT (Generative Pre-trained Transformer)
-- BERT (Bidirectional Encoder Representations from Transformers)
-- DALL-E
-- Stable Diffusion
-- OpenCV (Computer Vision)
-- YOLO (You Only Look Once)
-- TensorFlow
-- PyTorch
-- Keras
-- Scikit-Learn
-- Hugging Face Transformers
-
-### Concepts liés à la donnée en IA :
-- Ingénierie des caractéristiques (Feature Engineering)
-- Réduction de dimensionnalité (PCA, t-SNE)
-- Traitement des données manquantes
-- Normalisation et standardisation
-- Augmentation de données
-- Balancement des données (Over-/Under-sampling)
-- Séries temporelles et prévisions
-
-### Méthodes et outils pour les réseaux neuronaux :
-- Tenseur (Tensor Operations)
-- Fonction d'activation (ReLU, Sigmoid, Tanh)
-- Fonction de perte (Loss Functions)
-- Backpropagation
-- Dropout
-- Batch Normalization
-- Regularisation (L1/L2)
-- Architectures modulaires (Ensemble Models)
-
----
-
+## **Ressources Supplémentaires**
+- Livres : "Deep Learning" de Ian Goodfellow, "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" d'Aurélien Géron.
+- Cours en ligne : Coursera, edX, Udacity.
+- Communautés : Kaggle, GitHub, Stack Overflow.
