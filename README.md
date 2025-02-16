@@ -286,3 +286,9 @@
 - Livres : "Deep Learning" de Ian Goodfellow, "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" d'Aurélien Géron.
 - Cours en ligne : Coursera, edX, Udacity.
 - Communautés : Kaggle, GitHub, Stack Overflow.
+
+----
+
+## **LEXIQUES :** 
+
+https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia
